@@ -286,31 +286,9 @@ footer p {
   margin: 0;
 }
 
-footer ul {
-  list-style: none;
-  padding: 0;
-  margin: 20px 0 0 0;
-}
 
-footer ul li {
-  display: inline-block;
-  margin-right: 20px;
-}
 
-footer ul li:last-child {
-  margin-right: 0;
-}
 
-footer ul li a {
-  color: #fff;
-  font-size: 24px;
-  text-decoration: none;
-  transition: color 0.3s ease-in-out;
-}
-
-footer ul li a:hover {
-  color: #C37287;
-}
 
 
 
