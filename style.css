@@ -165,6 +165,7 @@ nav ul li a {
   transition: background-color 0.3s ease;
 }
 
+
 nav ul li a:hover {
   background-color: #EFBFFF;
 }
@@ -286,7 +287,8 @@ h1 {
 }
 
 .btn-secondary {
-  background-color: #c9c9c9;
+  background-color: #F3D9E1;
+
 }
 
 .price {
@@ -339,6 +341,7 @@ h1 {
   background-color: #C37287;
   color: #fff;
 }
+
 
 .product-item .btn:hover {
   background-color: #fff;
@@ -487,15 +490,102 @@ footer p {
   margin-bottom: 20px;
 }
 
-.btn-secondary {
-  background-color: #fff;
-  border-color: #333;
-  color: #333;
-  font-weight: bold;
-  transition: all 0.3s ease;
+
+/* Stilurile pentru tema dark */
+body.dark-mode {
+  background-color: #1f1f1f;
+  
 }
 
-.btn-secondary:hover {
-  background-color: #333;
+.btn-secondary.dark-mode
+{
+  background-color: #3d3034;
   color: #fff;
 }
+header.dark-mode
+{
+  background-color: #3d3034;
+}
+.showcase.dark-mode:before
+{
+  background-color: rgba(61, 48, 52, 0.65);
+}
+
+.showcase-text.dark-mode 
+{
+  background-color: rgba(61, 48, 52, 0.8);
+}
+
+#dark-mode-toggle
+{
+  
+  float: right;
+  
+}
+
+nav ul #dark-mode-toggle button:hover
+{
+
+  background-color: #EFBFFF;
+}
+
+nav ul #dark-mode-toggle button.dark-mode:hover
+{
+  background-color: #4d363f;
+}
+nav ul li a:hover
+{
+  background-color: #4d363f;
+}
+
+nav ul ul li a.dark-mode 
+{
+  background-color: #423b3e;
+}
+
+nav ul ul li a.dark-mode:hover 
+{
+  background-color: #4d363f;
+}
+
+.dropdown-menu {
+  opacity: 0;
+  visibility: hidden;
+  max-height: 0;
+  overflow: hidden;
+  animation: dropdown-hide 0.3s ease-out;
+}
+
+.dropdown:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  max-height: 500px; 
+  animation: dropdown-show 0.7s ease-in;
+}
+
+@keyframes dropdown-hide {
+  from {
+    opacity: 1;
+    visibility: visible;
+    max-height: 500px; 
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+    max-height: 0;
+  }
+}
+
+@keyframes dropdown-show {
+  from {
+    opacity: 0;
+    visibility: hidden;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    visibility: visible;
+    max-height: 500px; 
+  }
+}
+
