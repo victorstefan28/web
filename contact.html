@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Flower Shop - Contact</title>
   <link rel="stylesheet" href="style.css">
+  <script src="/script.js"></script>
 </head>
 <body>
   <header>
@@ -11,19 +12,22 @@
       <h1>Flower Shop</h1>
       <nav>
         <ul>
-          <li><a href="index.html">Acasă</a></li>
+          <li><a href="home">Acasă</a></li>
           <li class = "dropdown">
-            <a href="produse.html">Produse</a>
+            <a href="produse">Produse</a>
               <ul class="dropdown-menu">
-                <li><a href="produse.html#buchete">Buchete de flori</a></li>
-                <li><a href="produse.html#aranj">Aranjamente florale</a></li>
-                <li><a href="produse.html#cutii">Cutii cu flori</a></li>
-                <li><a href="produse.html#interior">Plante de interior</a></li>
+                <li><a href="produse#buchete">Buchete de flori</a></li>
+                <li><a href="produse#aranj">Aranjamente florale</a></li>
+                <li><a href="produse#cutii">Cutii cu flori</a></li>
+                <li><a href="produse#interior">Plante de interior</a></li>
               </ul>
               
           </li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="despre.html">Despre noi</a></li>
+          <li><a href="contact">Contact</a></li>
+          <li><a href="despre">Despre noi</a></li>
+          <li id="dark-mode-toggle">
+            <button class="btn btn-secondary">&#x263e;</button>
+          </li>
         </ul>
       </nav>
     </div>
@@ -62,9 +66,9 @@
 	</section>
 
 	<footer>
-		<div class="container">
-			<p>&copy; 2021 Florăria noastră</p>
-		</div>
-	</footer>
+    <div class="container">
+      <p>&copy; 2023 Flower Shop</p>
+    </div>
+  </footer>
 </body>
 </html>
