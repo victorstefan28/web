@@ -513,7 +513,10 @@ body.dark-mode {
   background-color: #1f1f1f;
   
 }
-
+.contact-form.dark-mode {
+    background-color: #3d3034;
+    
+}
 .btn-secondary.dark-mode
 {
   background-color: #3d3034;
