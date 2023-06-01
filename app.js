@@ -41,7 +41,7 @@ app.post('/contact', (req, res) =>
 app.get('/despre', (req, res) => {
   res.sendFile(__dirname + "/despre.html")
 })
-//The 404 Route (ALWAYS Keep this as the last route)
+
 app.get('*', (req, res) => {
   res.status(404).sendFile(__dirname + "/404.html")
 });

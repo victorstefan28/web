@@ -294,7 +294,6 @@ h1 {
   bottom: 0;
   background-color: rgba(243, 217, 225, 0.50);
   transition: background-color 0.3s ease-in-out;
-
 }
 .showcase-text {
   background-color: rgba(255, 255, 255, 0.8);
@@ -419,6 +418,7 @@ footer {
   color: #fff;
   padding: 20px 0;
   margin-top: auto;
+  transition: background-color 0.3s ease-in-out;
 }
 
 footer p {
